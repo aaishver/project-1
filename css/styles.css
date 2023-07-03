@@ -1,0 +1,345 @@
+
+.links-foot{
+    cursor: pointer;
+  }
+  .links-foot:hover{
+    text-decoration: underline;
+  }
+
+.last-section{
+    background-color: #00252E;
+}
+.contain{
+    margin: 0 1.5em;
+}
+.copywrite{
+    position:relative ;
+    top: 2em;
+}
+
+
+.top-logo{
+    width: 220px;
+    height: 50px;
+}
+.bot-logo{
+    margin-left: 6px;
+    width: 220px;
+  }
+
+#intro-header{
+    margin-top: 8em;
+}
+
+
+header{
+    height: 110vh;
+    background-repeat: no-repeat;
+    background: linear-gradient(180deg, 
+    #0214B9 0%, 
+    #3448D7 0%, 
+    rgba(82.76, 114.37, 227.37, 0.94) 23%, 
+    rgba(154.06, 212.61, 255, 0.80) 53%, 
+    white 100%);
+}
+body{
+    font-family: 'Red Hat Display', sans-serif;
+    background-color: white;
+    line-height: 1.5;
+}
+h3{
+    margin-top: 1.5em;
+    font-size: 40px;
+}
+h4{
+    font-size: 25px;
+    font-weight: lighter;
+}
+p{
+    font-size: 18px;
+}
+nav{
+    margin: 1em;
+}
+
+.naem{
+    margin-left: 2em;
+}
+.t-logo{
+    width:220px;
+    height: 50px;
+}
+.icon-div{
+    margin: 3em auto 0 auto;
+}
+.local{
+    max-width: 350px;
+    padding: 2em 0;
+}
+.li-spc{
+    margin-right: 1em;
+}
+.box{
+    max-width: 1520px;
+}
+.mar-left{
+    margin-left: 10em;
+}
+.mar-rit{
+    margin-right: 10em;
+}
+.feature{
+    padding: 4em 10em;
+}
+.flx-col , .flx-col1{
+    flex-flow: row;
+}
+.d-fx{
+    display: flex;
+}
+.s-btw{
+    justify-content: space-between;
+}
+.reverse{
+    flex-flow:row-reverse ;
+}
+.s-wid{
+    margin: auto;
+    max-width: 500px;
+}
+
+.three-sc{
+    background-color: #F6FBFF;
+}
+.shrink{
+    width: 100%;
+}
+.mob-bi{
+    display: none;
+}
+
+.slide-right{
+    margin-right: 1em;
+}
+
+#ig-is{
+    position: relative;
+    top: -10px;
+    color: white;
+}
+#ig-is:hover{
+    color:#3888ff;
+}
+.icon-s{
+    background-color: white;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    border-radius: 12%;
+  }
+  .icon-s:hover{
+    background-color:#3888ff;
+  }
+  i{
+    color: #00252E;
+    cursor: pointer;
+    overflow: hidden;
+    padding: 9px;
+  }
+
+/* ---------- bottom parts --------- */
+input{
+    background-color: #ffffff1c;
+    color: white;
+    cursor: pointer;
+    border-radius: 6px;
+    width: 250px;
+    font-size: 16px;
+    border: none;
+}
+
+
+/* ---------- footer --------- */
+footer p{
+    font-size: 14px;
+    margin-top: 4px;
+}
+
+footer{
+    color:#F6FBFF;
+}
+
+.news button{
+    cursor: pointer;
+    border-radius: 6px;
+    padding: 0 1em;
+    margin-top: 1em;
+    background-color: #0B5ED7;
+    border: none;
+    color: #ffffff;
+    font-size: 16px;
+}
+.news button:hover{
+    background-color: #2b74e1;
+}
+
+
+/*-------- media queries --------*/
+
+
+
+
+
+
+
+@media (max-width:1290px){
+    h3{
+        margin-top: 1em;
+    }
+
+}
+@media (max-width:1200px){
+    #intro-header{
+        margin-top: 4em;
+    }
+    .container{
+        margin-top: 3em;
+    }
+}
+@media (max-width:1045px){
+    .mar-left{
+        margin-left: 4em;
+    }
+    .mar-rit{
+        margin-right: 4em;
+    }
+}
+@media (max-width:1040px){
+
+    p{
+        font-size: 14px;
+    }
+    h3{
+        margin-top: 2em;
+        font-size: 25px; 
+    }
+    h4{
+        font-size: 20px; 
+    }
+
+}
+@media (max-width:1010px){
+    h1{
+        font-size: 30px;
+    }
+    .feature{
+        padding: 4em;
+    }
+    .newsletter{
+     padding-left: 2.2em;   
+    }
+}
+
+
+
+@media (max-width:840px){
+    #search{
+        position: relative;
+        right: 5px;
+    }
+    .bot-mar{
+        margin-bottom: 3em;
+    }
+    .reverse{
+        flex-flow:column ;
+    }
+    .flx-col{
+        flex-flow:column ; 
+    }
+    .flx-col1{
+        flex-flow: column-reverse;
+    }
+    .feature{
+        padding: 4em 5em;
+    }
+
+    h3 , main p {
+        text-align: center;
+    }
+    main p{
+        margin-top: 1em;
+    }
+    .mar-rit{
+        margin-right: 0;
+        margin: auto;
+    }
+    .mar-left{
+        margin-left: 0;
+        margin: auto;
+    }
+    h3{
+        margin-top: 1em;
+    }
+    .icon-div{
+        margin: 4em auto 0 auto;
+    }
+
+}
+
+@media (max-width:770px){
+    .connect{
+        margin-left: 1.5em;
+    }
+    header{
+        height: 95vh;
+    }
+
+}
+
+@media (max-width:500px){
+    .contain{
+        margin: 0;
+    }
+    .t-logo{
+        width: 200px;
+    }
+    .feature{
+        padding: 4em 2em;
+    }
+    .vs-wid{
+        width: 200px;
+    }
+
+    .box{
+        width: 500px;
+    }
+    .desk-bi{
+        display: none;
+    }
+    .mob-bi{
+        display: block;
+    }
+}
+
+@media (max-width:400px){
+    .t-logo{
+        width: 150px;
+    }
+    .top-logo{
+        width: 200px;
+        height: 45px;
+    }
+    input{
+        width: 275px;
+    }
+    footer p{
+        margin-right: 1em;
+    }
+    input{
+        width: 250px;
+    }
+    h3{
+        font-size: 20px;
+    }
+}
+

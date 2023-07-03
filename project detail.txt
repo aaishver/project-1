@@ -1,0 +1,57 @@
+Congratulations on reaching the final round of the assignment! As a front-end developer, your
+skills will be put to the test. Your task is to Design & code three web pages with innovative
+design ideas that prioritize excellent user experience and a premium feel.
+
+Sample Links -
+
+https://www.incheq.co/contact
+https://www.codigo.co/services
+https://fivecube.agency/
+https://www.proofpoint.com/us
+https://www.cybereason.com/
+https://www.stpfederal.com/
+
+While the provided sample links served as references, we encourage originality and
+innovative thinking
+
+However, we kindly request that you do not expect an exact reproduction of those examples.
+We welcome the opportunity to present our own inventive ideas, taking into account your
+openness to fresh concepts.
+
+Remember, the candidate with the best redesign will be selected. Ensure that your designs are
+exceptional and innovative, impressing both as a front-end developer and a UI/UX designer.
+Good luck with your assignment!
+
+2 stages of the assignment :-
+
+Step 1-
+Design web page using Photoshop Or Figma
+Step 2-
+Code the web page accordingly
+Website Outline:
+
+You have been assigned the task to design and develop a digital recruitment solution app aimed
+at providing a seamless hiring experience for multiple MNCs. Your responsibilities include:
+
+1. Homepage: Create an engaging landing page that showcases the key features and
+benefits of the online recruitment solution, emphasizing its efficiency for hiring managers
+and HR professionals.
+
+2. User Login and Register Pages: Develop secure login and registration pages
+specifically tailored for companies. This will enable them to access the recruitment
+solution and utilize its features effectively.
+
+3. Candidate Search: Implement a search functionality that allows users to find candidates
+based on location and job roles. Additionally, design a section where the fetched
+candidates can be listed for later ranking and evaluation.
+You Must Submit three web pages.
+
+Note: Avoid using graphic animations; instead, implement animations through coding.
+
+To ensure a smooth submission process, please follow these guidelines:
+Host your web pages on a server like Netlify (https://www.netlify.com/) and share the link in
+the email along with your resume and other works.
+
+You Must Submit three web pages.
+Please email your three project ideas to hr.studymonk@gmail.com by the Deadline: 03/07/2023
+(by 11 am)

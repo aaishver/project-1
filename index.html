@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>RECREW</title>
+  <!--bootstrap-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!--awesomefont-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+  <!--google fonts-->
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Red+Hat+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!--css stylesheet-->
+  <link rel="stylesheet" href="css/styles.css">
+
+
+
+</head>
+<body>
+
+
+  <header>
+      <!----------- navbar ------------>
+
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="images/recrew-logo4-removebg.png" alt="RECREW" class="top-logo">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" style="justify-content: right;" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item naem">
+            <a class="nav-link text-white" href="#">HOME</a>
+          </li>
+          <li class="nav-item naem">
+            <a class="nav-link text-white" href="code/signup-in.html">SIGN UP/IN</a>
+          </li>
+          <li class="nav-item naem">
+            <button type="button" class="btn" style="position: relative; bottom: 0.6em; right: 0.6em;" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">
+              <a class="nav-link text-white"><i class="fa-solid fa-magnifying-glass" id="search" style="color: #ffffff;"></i></a>
+            </button>
+          
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">SEARCH BY ROLE AND LOCATION</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <form>
+                      <div class="mb-3">
+                        <label for="recipient-name" class="col-form-label">JOBROLE:</label>
+                        <input type="text" class="form-control" id="recipient-name" name="JOBROLE">
+                      </div>
+                      <div class="mb-3">
+                        <label for="message-text" class="col-form-label">LOCATION:</label>
+                        <input type="text" class="form-control" id="message-text" name="LOCATION">
+                      </div>
+                    </form>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary" id="top-btn">SEARCH</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+      </div>
+    </div>
+  </nav>
+
+
+  <!---------- introduction ---------->
+
+
+  <div class="container" id="intro-header" >
+    <div class="row justify-content-sm-between align-content-center flex-xl-row flex-column-reverse">
+      <div class="col-xl-6 col-lg-9 text-white pe-0 pe-md-5 mt-4 ">
+        <h1 class="">Streamline Your Hiring Process and find your perfect fit.</h1>
+        <p class="mb-5 fs-4">To strategize your digital hiring process now</p>
+        <button type="button" class="btn btn-primary ">GET STARTED</button>
+      </div>
+      <div class="col-xl-6 col-lg-8">
+        <img src="images/HR-Tech-startups.png" style="width: 100%; border-radius: 20px;" alt="">
+      </div>
+    </div>
+  </div>
+  </header>
+
+  <main>
+<!---------- features ---------->
+
+  <!-- quality applicant -->
+  <div>
+    <div class="box">
+      <img src="bg-img/bg-section-top-desktop-1.svg" class="shrink desk-bi" style="top: 10px; position: relative;" alt="">
+      <img src="bg-img/bg-section-top-mobile-1.svg" class="shrink mob-bi" alt="">
+    </div>
+    <div class="feature three-sc">
+      <div class="d-fx reverse">
+        <!-- image -->
+        <div class="s-wid">
+          <img class="shrink bot-mar" style="border-radius: 15px;" src="images/quality-applicants.jpg" alt="illustration-grow-together">
+        </div>
+
+          <!-- information -->
+        <div class="mar-rit">
+          <h3 class="">
+            Find quality applicants
+          </h3>
+          <p class="">
+            List your required skills for the job so relevant candidates apply.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="box">
+      <img src="bg-img/bg-section-bottom-desktop-1.svg" class="shrink desk-bi" alt="">
+      <img src="bg-img/bg-section-bottom-mobile-1.svg" class="shrink mob-bi" alt="">
+    </div>
+  </div>
+
+
+  <!-- verify -->
+
+  <div class="feature">
+    <div class="d-fx flx-col">
+      <!-- image -->
+      <div class="s-wid md-wid">
+        <img class="shrink bot-mar" style="border-radius: 15px;" src="images/easy-interview.jpg" alt="illustration-flowing-conversation">
+      </div>
+
+        <!-- information -->
+      <div class="mar-left">
+        <h3 class="">
+          Verify their abilities
+        </h3>
+        <p class="">
+          Add screener questions and assessments to test applicants’ skills.
+        </p>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- organize -->
+  <div>
+    <div class="box">
+      <img src="bg-img/bg-section-top-desktop-2.svg" class="shrink desk-bi" style="top: 10px; position: relative;"alt="">
+      <img src="bg-img/bg-section-top-mobile-2.svg" class="shrink mob-bi" alt="">
+    </div>
+    <div class="feature three-sc">
+      <div class="d-fx reverse">
+        <!-- image -->
+        <div class="s-wid mm-wid">
+          <img class="shrink bot-mar" style="border-radius: 15px;" src="images/HR-Tech-startups.png" alt="illustration-your-users">
+        </div>
+        
+        <!-- information -->
+        <div class="mar-rit">
+          <h3 class="">
+            Organize your candidates
+          </h3>
+          <p class="">
+            View and sort resumes, send messages, and schedule interviews—all on Indeed.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="box">
+      <img src="bg-img/bg-section-bottom-desktop-2.svg" class="shrink desk-bi " alt="">
+      <img src="bg-img/bg-section-bottom-mobile-2.svg" class="shrink mob-bi" alt="">
+    </div>
+  </div>
+
+  </main>
+
+
+  
+
+
+  <!---------- footer ---------->
+
+
+  <footer >
+    <div class="box">
+      <img src="bg-img/bg-footer-top-desktop.svg" class="shrink desk-bi" alt="">
+      <img src="bg-img/bg-footer-top-mobile.svg" class="shrink mob-bi" alt="">
+    </div>
+    <div class="last-section pb-5 px-0 text-white">
+      
+      <div class="contain">
+        <img src="images/recrew-logo4-removebg.png" alt="" class="mb-3 mt-5 bot-logo">
+        
+        <!-- flexbox, flex container -->
+        <div class="row justify-content-between ">
+          
+          <!-- location , phone, and contacting email  -->
+          <div class="col-lg-4 col-md-6 ">
+            <div class="d-flex ">
+              
+              <p class="ms-4 lh-base fw-normal text-start pe-lg-0 p-sm-1 pd-md3">  
+                LOCATION Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+                incididunt ut labore et dolore magna aliqua
+              </p>
+            </div>
+            <div class="d-fx ps-4">
+              <div class="li-spc">
+                <img src="images/icon-phone.svg" alt="icon-phone">
+              </div>
+              <p class="">
+                Phone: +1-543-123-4567
+              </p>
+            </div>
+      
+            <!-- email -->
+            <div class="d-fx ps-4">
+              <div class="li-spc">
+                <img src="images/icon-email.svg" alt="icon-email">
+              </div>
+              <p class="">
+                example@RECREW.com
+              </p>
+            </div>
+          </div>
+  
+          <!-- more info -->
+          <div class="col-lg-3 col-md-6 px-0 px-md-3 py-3 py-md-0 col-sm-8 connect">
+            <div class="container lh-lg d-block d-sm-flex">
+              <div class="row row-cols-1">
+                <div class="col links-foot">  About Us</div>
+                <div class="col links-foot">  Career</div>
+                <div class="col links-foot">  What We Do</div>
+              </div>
+              <div class="row row-cols-1">
+                <div class="col links-foot">  Blog</div>
+                <div class="col links-foot">  FAQ</div>
+                <div class="col links-foot">  Contact Us</div>
+              </div>      
+            </div>
+          </div>
+  
+          <!-- fb twitter and insta icons -->
+          <div class=" col-lg-3 col-sm-6 py-4 py-lg-0 newsletter">
+            <!-- info for newsletter -->
+            <div class="">
+              <h4 class="">
+                NEWSLETTER
+              </h4>
+
+            </div>
+      
+            <!-- button -->
+            <div class="news">
+              <form class="" role="Enter your email">
+                <input class="" type="email" placeholder="example@email" style="padding-left: 1em;"><br>
+                <button class="" type="submit">Subscribe</button>
+              </form>
+            </div>
+
+            <div class="d-fx icon-div">
+              <div class="icon-s fb-is slide-right"><i class="fa-brands fa-facebook-f  " aria-hidden="true"></i></div>
+              <div class=" slide-right"><i class="fa-brands fa-instagram fa-2x" id="ig-is" aria-hidden="true"></i></div>
+              <div class="icon-s tt-is"><i class="fa-brands fa-twitter " aria-hidden="true"></i></div>
+            </div>
+          </div>
+
+        </div>
+        <div class="text-sm-end text-center copywrite">
+          &copy; Copyright 2018 Huddle. All rights reserved.
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+
+
+
+
+
+  <script src="../index.js"></script>
+  <script src="
+  https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js
+  "></script>
+
+
+
+  <!-- //
+import fs from "node: fs";
+import express from "express";
+import { connect } from "mongoose";
+
+const app = express()
+const port = 3000
+
+import User from "./model/user";
+
+connect(url("mongodb://127.0.0.1:27017/test")).
+then(()=>{
+    console.log("Database Connected")
+}).catch((e)=>{
+    console.log(e)
+    console.log("Database is not connected")
+})
+
+app.post("/", async(req, res)=>{
+    const userData = new User(req.body)
+    userData = userData.save()
+    let a = fs.readFileSync("index.html")
+    res.send(a.toString())
+})
+app.get("/", (req, res)=>{
+    let a = fs.readFileSync("index.html")
+    res.send(a.toString())
+})
+
+app.listen(port, ()=>{
+    console.log("app is running on port", port )
+}) -->
+</body>
+</html>
